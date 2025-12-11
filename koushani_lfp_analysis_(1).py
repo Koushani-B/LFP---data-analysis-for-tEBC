@@ -713,10 +713,13 @@ print("\n CS-alone trials:")
 plot_power_spectra(df_all, trials_df, regions, first_session, (0, 50), 'cs_alone')
 
 
-print("ANALYSIS COMPLETE")
+
 
 print(" VISUALIZE RAW LFP DATA")
 
 
 print("\n Raw continuous LFP (10 seconds):")
 plot_raw_lfp_sample(df_all, first_session, regions, duration_sec=10, start_time=0)
+
+
+print("ANALYSIS COMPLETE")
